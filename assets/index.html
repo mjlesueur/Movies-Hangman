@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Hangman</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+</body>
+
+<div class="container" id="hangmanCard">
+    <div class="card">
+        <div class="card-body">
+          imdb Top 250 Hangman
+        </div>
+      </div>
+</div>
+
+<div class="container" class="jumbotron" class="blanks">
+    <p id="wordDisplay"></p>
+</div>
+
+<div class="container">
+    <div class="row" id="gallowsHeight">
+
+        <div class="col-md-6" class="jumbotron" id="scoreboard">
+            <p id="wins"></p>
+            <p id="losses"></p>
+            <p id="guessed"></p>
+        </div>
+
+        <div class="col-md-6">
+            <div id="gallows"> </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="rules">
+    <p>
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-9" id="rulesList">
+            <h1 id="edicts">Guildmaster's Edicts</h1>
+            <ul>
+                <li>
+                    "The" has been removed if it is the beginning of the movie title 
+                </li> 
+                <li>
+                    For the sake of guessing, numbers are spelled out 
+                </li>
+                <li>
+                    For the sake of guessing, special characters are ommitted 
+                </li>
+                <li>
+                    Titles of series before a colon have been ommitted <br>
+                    &emsp; e.g. "Star Wars: ", etc.
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-1">
+        </div>
+    </div>
+    </p>
+</div>
+
+<div class="hidden">
+    <img src="./css/images/hangman_0.png" alt="Hangman" id="hangman0">
+    <img src="./css/images/hangman_1.png" alt="Hangman1" id="hangman1">
+    <img src="./css/images/hangman_2.png" alt="Hangman2" id="hangman2">
+    <img src="./css/images/hangman_3.png" alt="Hangman3" id="hangman3">
+    <img src="./css/images/hangman_4.png" alt="Hangman4" id="hangman4">
+    <img src="./css/images/hangman_5.png" alt="Hangman5" id="hangman5">
+</div>
+
+
+<script src="./javascript/game.js"></script>
+</body>
+
+</html>

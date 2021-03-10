@@ -1,0 +1,63 @@
+.hidden {
+    visibility: hidden;
+}
+
+div.card-body {
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+    background-image: url(./images/background.jpg);
+
+}
+
+#wordDisplay {
+    padding-top: 2em;
+    text-align: center;
+    font-size: 120px;
+}
+
+#gallowsHeight {
+    height: 400px;
+}
+
+#scoreboard {
+    margin-top: 1em;
+}
+
+#wins {
+    font-size: x-large;
+    text-align: center;
+}
+
+#losses {
+    font-size: x-large;
+    text-align: center;
+}
+
+#guessed {
+    text-align: center;
+    font-size: larger;
+    border: 2px solid black;
+}
+
+.container {
+    background: white;
+}
+
+#wordDisplay {
+   font-size: x-large;
+}
+
+#edicts {
+    font-size: large;
+    text-align: center;
+}
+
+#rulesList {
+    font-size: small;
+    text-align: center;
+}
+
+
+
